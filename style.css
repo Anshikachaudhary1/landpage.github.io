@@ -1,0 +1,249 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+  
+  .header-logo {
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .header-nav {
+    float: right;
+  }
+  
+  .header-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .header-nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .header-nav li:first-child {
+    margin-left: 0;
+  }
+  
+  .header-nav a {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .header-nav a:hover {
+    color: #5c5c5c;
+  }
+  
+  /* Hero Styles */
+  .hero {
+    background-image: url('https://i.imgur.com/AMw8F3P.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+  
+  .hero button {
+    background-color: #5c5c5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero button:hover {
+    background-color: #444;
+  }
+  
+  /* Features Styles */
+  .features {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .features li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .features li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .features h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .features p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Styles */
+  .contact {
+    background-color: #5c5c5c;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 1px;;
+    border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #fff;
+  color: #5c5c5c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #eee;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ddd;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.footer-nav li:first-child {
+  margin-left: 0;
+}
+
+.footer-nav a {
+  color: #333;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  color: #5c5c5c;
+}
+
+.footer-social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-social li:first-child {
+  margin-left: 0;
+}
+
+.footer-social a {
+  color: #5c5c5c;
+  font-size: 24px;
+}
+
+.footer-social a:hover {
+  color: #333;
+}
+.nav{
+  border-width: 10px;
+}
